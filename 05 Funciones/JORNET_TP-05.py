@@ -44,3 +44,14 @@ dobles.append(5*2)
 dobles.append(10*2)
 dobles.append(15*2)
 print(dobles)
+
+#Ejercicio 9:
+compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
+compras[2].append("jugo")
+compras[1][compras[1].index("fideos")] = "tallarines"
+compras[0].remove("pan")
+print(compras)
+
+#Ejercicio 10:
+lista_anidada = [15, True, [25.5, 57.9, 30.6], False]
+print(lista_anidada)
